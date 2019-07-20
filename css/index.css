@@ -251,6 +251,49 @@ About
 
 /*
 
+Blog
+
+*/
+
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+
+.blog-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+
+}
+
+.blog-box:nth-child(2n+1){
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+.blog-box a{
+    margin: 10px;
+    padding: 10px 30px;
+    border: 1px dotted black;
+}
+
+.older {
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.older a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*
+
 Footer
 
 */
@@ -273,4 +316,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*
+
+Animations
+
+*/
+
+a:hover{
+    transform: scale(1.2);
 }
