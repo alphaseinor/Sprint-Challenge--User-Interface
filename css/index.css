@@ -66,6 +66,41 @@ p {
     line-height: 1.4;
 }
 
+/*
+Header
+*/
+
+header {
+    height: 100px;
+    padding: 20px 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav a{
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    font-size: .85rem;
+}
+
+nav a img{
+    padding-right: 40px;
+}
+
+/*
+Body
+*/
+
+article section img{
+    width 100%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,6 +146,48 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
