@@ -97,6 +97,8 @@ nav a img{
 Body
 */
 
+
+
 article section img{
     width 100%;
 }
@@ -104,6 +106,11 @@ article section img{
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.dashed {
+    padding: 20px 0px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
 }
 
 .top-content {
@@ -187,8 +194,6 @@ article section img{
     background: dodgerblue;
 }
 
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -202,6 +207,54 @@ article section img{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.pb{
+    padding-bottom: 40px; 
+}
+
+/*
+
+About
+
+*/
+
+.learnMoreArticle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.learnMoreBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 48%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.learnMoreBox img{
+    width: 100%;
+    padding: 5px;
+}
+
+.learnMoreBox a{
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*
+
+Footer
+
+*/
+
 
 footer {
     width: 100%;
